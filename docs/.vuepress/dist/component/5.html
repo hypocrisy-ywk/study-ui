@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>提示框 - Tooltip | Study UI</title>
+    <meta name="generator" content="VuePress 1.4.1">
+    
+    <meta name="description" content="用Vue造轮子">
+    <link rel="preload" href="/study-ui/assets/css/0.styles.f33df807.css" as="style"><link rel="preload" href="/study-ui/assets/js/app.c7eaecf5.js" as="script"><link rel="preload" href="/study-ui/assets/js/5.a4fbef78.js" as="script"><link rel="preload" href="/study-ui/assets/js/23.752e0da9.js" as="script"><link rel="prefetch" href="/study-ui/assets/js/1.6d925c37.js"><link rel="prefetch" href="/study-ui/assets/js/10.57171e72.js"><link rel="prefetch" href="/study-ui/assets/js/11.cedf8341.js"><link rel="prefetch" href="/study-ui/assets/js/12.62001c92.js"><link rel="prefetch" href="/study-ui/assets/js/13.2ab0f9f9.js"><link rel="prefetch" href="/study-ui/assets/js/14.b8b10c65.js"><link rel="prefetch" href="/study-ui/assets/js/15.1f153e72.js"><link rel="prefetch" href="/study-ui/assets/js/16.bea5c316.js"><link rel="prefetch" href="/study-ui/assets/js/17.c794c832.js"><link rel="prefetch" href="/study-ui/assets/js/18.ba4e9313.js"><link rel="prefetch" href="/study-ui/assets/js/19.1245c4ba.js"><link rel="prefetch" href="/study-ui/assets/js/2.c1c145d8.js"><link rel="prefetch" href="/study-ui/assets/js/20.efecbc00.js"><link rel="prefetch" href="/study-ui/assets/js/21.33afbf3e.js"><link rel="prefetch" href="/study-ui/assets/js/22.1dd5caad.js"><link rel="prefetch" href="/study-ui/assets/js/24.7add8cdc.js"><link rel="prefetch" href="/study-ui/assets/js/25.761ac47a.js"><link rel="prefetch" href="/study-ui/assets/js/26.6c849757.js"><link rel="prefetch" href="/study-ui/assets/js/27.75cfadab.js"><link rel="prefetch" href="/study-ui/assets/js/3.6fa0b845.js"><link rel="prefetch" href="/study-ui/assets/js/6.1ea43000.js"><link rel="prefetch" href="/study-ui/assets/js/7.fe402231.js"><link rel="prefetch" href="/study-ui/assets/js/8.2881e727.js"><link rel="prefetch" href="/study-ui/assets/js/9.292c6c78.js">
+    <link rel="stylesheet" href="/study-ui/assets/css/0.styles.f33df807.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/study-ui/" class="home-link router-link-active"><img src="/study-ui/study.jpg" alt="Study UI" class="logo"> <span class="site-name can-hide">Study UI</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/study-ui/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/study-ui/doc/" class="nav-link">
+  文档
+</a></div><div class="nav-item"><a href="https://github.com/hypocrisy-ywk" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/study-ui/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/study-ui/doc/" class="nav-link">
+  文档
+</a></div><div class="nav-item"><a href="https://github.com/hypocrisy-ywk" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>开始上手</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/study-ui/doc/" class="sidebar-link">安装 - Installation</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>组件</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/study-ui/component/1.html" class="sidebar-link">按钮 - Button</a></li><li><a href="/study-ui/component/2.html" class="sidebar-link">选项卡 - Tabs</a></li><li><a href="/study-ui/component/3.html" class="sidebar-link">手风琴 - Collapse</a></li><li><a href="/study-ui/component/4.html" class="sidebar-link">消息提示 - Message</a></li><li><a href="/study-ui/component/5.html" class="active sidebar-link">提示框 - Tooltip</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/study-ui/component/5.html#示例" class="sidebar-link">示例</a></li><li class="sidebar-sub-header"><a href="/study-ui/component/5.html#代码" class="sidebar-link">代码</a></li><li class="sidebar-sub-header"><a href="/study-ui/component/5.html#api" class="sidebar-link">API</a></li></ul></li><li><a href="/study-ui/component/6.html" class="sidebar-link">对话框 - Dialog</a></li><li><a href="/study-ui/component/7.html" class="sidebar-link">走马灯 - Carousel</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="提示框-tooltip"><a href="#提示框-tooltip" class="header-anchor">#</a> 提示框 - Tooltip</h1> <h2 id="示例"><a href="#示例" class="header-anchor">#</a> 示例</h2> <!----> <h2 id="代码"><a href="#代码" class="header-anchor">#</a> 代码</h2> <details class="custom-block details"><summary>点击查看代码</summary> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>container<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Tooltip</span>
+      <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>提示文字<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">placement</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>left<span class="token punctuation">&quot;</span></span>
+    <span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Button</span><span class="token punctuation">&gt;</span></span>左 - left<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Button</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Tooltip</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Tooltip</span>
+      <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>提示文字<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">placement</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>top<span class="token punctuation">&quot;</span></span>
+    <span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Button</span><span class="token punctuation">&gt;</span></span>上 - top<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Button</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Tooltip</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Tooltip</span>
+      <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>提示文字<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">placement</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>bottom<span class="token punctuation">&quot;</span></span>
+    <span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Button</span><span class="token punctuation">&gt;</span></span>下 - bottom<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Button</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Tooltip</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Tooltip</span>
+      <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>提示文字<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">placement</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>right<span class="token punctuation">&quot;</span></span>
+    <span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Button</span><span class="token punctuation">&gt;</span></span>右 - right<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Button</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Tooltip</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+  <span class="token keyword">import</span> <span class="token punctuation">{</span>Tooltip<span class="token punctuation">,</span> Button<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;@wanmaoor/giaoui&quot;</span>
+  <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  	name<span class="token operator">:</span> <span class="token string">&quot;Tooltips&quot;</span><span class="token punctuation">,</span>
+  	components<span class="token operator">:</span> <span class="token punctuation">{</span>Button<span class="token punctuation">,</span> Tooltip<span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div></details> <h2 id="api"><a href="#api" class="header-anchor">#</a> API</h2> <table><thead><tr><th><code>content</code></th> <th>提示框的内容</th></tr></thead> <tbody><tr><td><code>placement</code></td> <td>提示框出现的方位</td></tr></tbody></table></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/study-ui/component/4.html" class="prev">
+        消息提示 - Message
+      </a></span> <span class="next"><a href="/study-ui/component/6.html">
+        对话框 - Dialog
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/study-ui/assets/js/app.c7eaecf5.js" defer></script><script src="/study-ui/assets/js/5.a4fbef78.js" defer></script><script src="/study-ui/assets/js/23.752e0da9.js" defer></script>
+  </body>
+</html>
