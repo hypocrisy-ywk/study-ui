@@ -18,6 +18,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:wanmaoor/giaoui.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
- git push -f git@github.com:wanmaoor/giaoui-vue-source.git master:gh-pages
+ git push -f git@github.com:hypocrisy/study-ui.git master:gh-pages
 
 cd -
